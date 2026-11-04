@@ -1,0 +1,12 @@
+{
+  "package": "APES — Antigravity Professional Engineering System (Unified Edition)",
+  "version": "2.0.0",
+  "updated": "2026-10-31",
+  "scope": [
+    "global",
+    "project",
+    "dual-compatibility (Antigravity + VS Code Copilot)"
+  ],
+  "file_count": 68,
+  "language": "English for agent instructions; Indonesian installation guide"
+}

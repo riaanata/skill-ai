@@ -1,0 +1,26 @@
+# Manifest Paket APES (Unified Edition)
+
+- `global/AGENTS.md` — aturan global alternatif untuk Antigravity.
+- `global/GLOBAL_RULES.md` — teks untuk Global Rules di Antigravity.
+- `global/GLOBAL_PROMPT.md` — prompt kerja lintas proyek.
+- `project-template/AGENTS.md` — instruksi utama proyek untuk Antigravity Agent.
+- `project-template/GEMINI.md` — konteks tambahan proyek.
+- `project-template/.agent/rules/` — rules per domain teknis (security, database, devops, frontend, backend, testing, dsb).
+- `project-template/.agent/skills/` — skill workflow rekayasa perangkat lunak untuk Antigravity:
+  - `implement-feature` — alur 8 langkah implementasi fitur baru end-to-end.
+  - `debug-fix` & `advanced-debugging` — investigasi akar masalah (*RCA*) & *regression test*.
+  - `code-review` & `professional-code-review` — review perubahan berbasis bukti dan tingkat keparahan.
+  - `testing-validation` — verifikasi terarah dan pemisahan isu regresi vs setup.
+  - `refactor-code` — restrukturisasi kode tanpa mengubah perilaku eksternal.
+  - `database-migration` — perencanaan dan migrasi skema database aman.
+  - `project-audit` — audit arsitektur, keamanan, dan utang teknis repositori.
+  - `release-check` — verifikasi kesiapan rilis (build, tests, migrasi, rollback).
+- `project-template/.github/` — integrasi VS Code GitHub Copilot Agent:
+  - `copilot-instructions.md` — pedoman umum perilaku agen untuk workspace VS Code.
+  - `skills/` — 8 modul skill yang dapat dipanggil dengan slash commands (contoh `/implement-feature`, `/debug-fix`, dsb).
+  - `workflows/` — contoh CI GitHub Actions.
+- `project-template/prompts/` — prompt siap pakai per fase pengembangan.
+- `project-template/docs/` — dokumen engineering proyek (arsitektur, API, database, keputusan).
+- `project-template/templates/` — template laporan, spesifikasi, dan bug report.
+- `install/` — skrip otomasi PowerShell untuk penyalinan template global dan project.
+- `examples/` — contoh Git workflow dan checklist Definition of Done.
