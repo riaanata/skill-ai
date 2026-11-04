@@ -1,6 +1,6 @@
 # 🧠 Skill AI — Master Agent Skills, Rules & Creator Workflows
 
-> Koleksi lengkap 21 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
+> Koleksi lengkap 22 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
 
 ---
 
@@ -38,7 +38,8 @@ Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja 
 ### 3. 📈 Data Pasar & Finansial
 * **`financial-data-pipeline`**: Pengolahan data time-series OHLCV, agregasi multi-timeframe, dan perhitungan indikator teknikal (RSI, MACD, Moving Average, Bollinger Bands) untuk charting.
 
-### 4. 🎬 Video, Audio & Desain Kreator
+### 4. 🎬 Video, Audio, Penulisan Artikel & Desain Kreator
+* **`humanizer`**: Menghapus bau robot (*AI tells*), jargon klise, dan menghasilkan artikel yang mengalir alami, lolos AI detector, serta ramah SEO Google (berbasis Wikipedia AI Cleanup).
 * **`ffmpeg-media-pipeline`**: Otomasi potong video instan tanpa re-encode, konversi rasio 16:9 ke 9:16 vertikal (TikTok/Reels), dan ekstraksi audio 16kHz Whisper.
 * **`auto-subtitle-generator`**: Transkripsi audio lokal otomatis via **Whisper AI** dan pembakaran teks (*burn-in*) subtitel animasi bergaya karaoke.
 * **`thumbnail-designer`**: Standar visual thumbnail YouTube (1280x720) dan cover TikTok (1080x1920) berdaya klik tinggi (*High CTR*) via Python Pillow.
