@@ -1,6 +1,6 @@
 # 🧠 Skill AI — Master Agent Skills, Rules & Creator Workflows
 
-> Koleksi lengkap 22 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
+> Koleksi lengkap 23 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
 
 ---
 
@@ -11,15 +11,17 @@ Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menj
 * ✅ **Anti-Rationalization (Addy Osmani Protocol):** Menolak segala bentuk jalan pintas AI yang menunda testing, dokumentasi, atau penanganan error.
 * ✅ **Minimal & Safe (Ponytail Philosophy):** Mencegah over-engineering, menolak dependensi berlebih, dan mengutamakan perubahan terkecil yang aman.
 * ✅ **Master Design System (`DESIGN.md`):** Mencegah *AI Slop Design* dengan standar visual 9 dimensi yang konsisten dan elegan.
+* ✅ **Editorial Diagram Standard (`diagram-design`):** Menyingkirkan *Mermaid slop* dengan SVG vektor tajam, skema arsitektur profesional, dan viewer HTML interaktif.
 * ✅ **Content Creator Pipeline:** Dari penulisan naskah viral, potong video FFmpeg, subtitel karaoke otomatis, pembuatan thumbnail, hingga upload otomatis ke media sosial.
 
 ---
 
-## 📦 Katalog 21 Modular Agent Skills (`.agent/skills/`)
+## 📦 Katalog 23 Modular Agent Skills (`.agent/skills/`)
 
 Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja menggunakan mekanisme **Progressive Disclosure** (hanya dimuat ke konteks AI saat dibutuhkan):
 
-### 1. 🛠️ Software Engineering & Quality Assurance
+### 1. 🛠️ Software Engineering, Arsitektur & Desain Sistem
+* **`diagram-design`**: Standar diagram arsitektur editorial publikasi (45 tipe diagram) dalam format vector SVG murni dan preview HTML interaktif pan/zoom — menyingkirkan *Mermaid slop*.
 * **`implement-feature`**: SOP pembuatan fitur end-to-end (spesifikasi, implementasi minimal, unit test).
 * **`advanced-debugging`**: Investigasi akar masalah (*root cause*), reproduksi bug, dan penambahan uji regresi.
 * **`debug-fix`**: Perbaikan cepat untuk error runtime atau compiler tanpa efek samping.
