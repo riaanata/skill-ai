@@ -1,6 +1,6 @@
 # 🎨 UI/UX Reference Vault — 20 Production-Grade UI Inspirations
 
-> Koleksi terverifikasi 20 desain UI/UX modern tingkat tinggi (*Code XR Suite*) yang dianalisis menggunakan skill `video-to-ui-blueprint` dan selaras dengan standar 8 Preset di [`DESIGN.md`](../DESIGN.md).
+> Koleksi terverifikasi 20 desain UI/UX modern tingkat tinggi (*Code XR Suite*) yang dianalisis menggunakan skill `bedah-desain-video` dan selaras dengan standar 8 Preset di [`DESIGN.md`](../DESIGN.md).
 
 ---
 
@@ -99,4 +99,4 @@
 ## 🛠️ Cara Menggunakan Referensi Ini:
 Cukup sebutkan preset atau nomor Reel ke Antigravity:
 > *"Tolong buatkan halaman checkout menggunakan preset Glassmorphism (seperti di Reel #3)."*  
-> *"Gunakan skill video-to-ui-blueprint untuk mengekstrak dan membangun ulang aplikasi seperti pada Reel #1."*
+> *"Gunakan skill bedah-desain-video untuk mengekstrak dan membangun ulang aplikasi seperti pada Reel #1."*

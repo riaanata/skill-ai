@@ -1,9 +1,9 @@
 ---
-name: video-to-ui-blueprint
-description: Reverse engineer UI/UX video reels, walkthroughs, or screencasts into comprehensive, production-grade design systems, page architectures, component trees, and AI coding blueprints.
+name: bedah-desain-video
+description: Reverse engineer rekaman video/reels medsos UI/UX menjadi sistem desain, arsitektur halaman, hierarki komponen, dan blueprint kode AI 13-tahap (A–M).
 ---
 
-# Video to UI/UX Blueprint — Video Reverse Engineering SOP
+# Bedah Desain Video — Video UI/UX Reverse Engineering SOP
 
 A specialized skill for Senior UI/UX Designers, Product Analysts, Software Architects, and Full-Stack Developers. It transforms reference video recordings (walkthroughs, social media reels, screencasts, UI demos) into production-ready implementation blueprints and AI coding prompts.
 
@@ -97,4 +97,4 @@ Kelompokkan seluruh fitur ke dalam kategori berikut:
 ## 3. Workflow Trigger Prompt Template
 
 Jika pengguna memberikan tautan video atau instruksi singkat, gunakan formula respons berikut:
-> *"Memulai dekomposisi video UI/UX menggunakan skill video-to-ui-blueprint. Mengekstraksi keyframes, palet warna, hierarki komponen, dan menyusun blueprint 13-tahap (A–M)..."*
+> *"Memulai dekomposisi video UI/UX menggunakan skill bedah-desain-video. Mengekstraksi keyframes, palet warna, hierarki komponen, dan menyusun blueprint 13-tahap (A–M)..."*
