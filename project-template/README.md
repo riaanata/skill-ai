@@ -1,6 +1,6 @@
 # 🧠 Skill AI — Master Agent Skills, Rules & Creator Workflows
 
-> Koleksi lengkap 26 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`) dengan 8 Modern UI Presets, Bank Inspirasi (`docs/UI_REFERENCE_VAULT.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
+> Koleksi lengkap 24 Production-Grade Agent Skills (Zero-Redundancy Streamlined), 9 Domain Rules, Master Design System (`DESIGN.md`) dengan 8 Modern UI Presets, Bank Inspirasi (`docs/UI_REFERENCE_VAULT.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
 
 ---
 
@@ -19,7 +19,7 @@ Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menj
 
 ---
 
-## 📦 Katalog 26 Modular Agent Skills (`.agent/skills/`)
+## 📦 Katalog 24 Modular Agent Skills (`.agent/skills/`)
 
 Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja menggunakan mekanisme **Progressive Disclosure** (hanya dimuat ke konteks AI saat dibutuhkan):
 
@@ -27,10 +27,8 @@ Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja 
 * **`bedah-desain-video`**: Dekomposisi video walkthrough / reels UI/UX menjadi sistem desain, arsitektur halaman, hierarki komponen, dan blueprint kode AI 13-tahap (A–M).
 * **`diagram-design`**: Standar diagram arsitektur editorial publikasi (45 tipe diagram) dalam format vector SVG murni dan preview HTML interaktif pan/zoom — menyingkirkan *Mermaid slop*.
 * **`implement-feature`**: SOP pembuatan fitur end-to-end (spesifikasi, implementasi minimal, unit test).
-* **`advanced-debugging`**: Investigasi akar masalah (*root cause*), reproduksi bug, dan penambahan uji regresi.
-* **`debug-fix`**: Perbaikan cepat untuk error runtime atau compiler tanpa efek samping.
-* **`professional-code-review`**: Tinjauan mendalam kualitas kode, arsitektur, dan celah teknis.
-* **`code-review`**: Review cepat PR / diff git terhadap standar clean code.
+* **`advanced-debugging`**: Investigasi akar masalah (*root cause*), perbaikan bedah instan (*hotfix*), reproduksi bug, dan penambahan uji regresi otomatis.
+* **`code-review`**: Tinjauan mendalam kualitas kode — menggabungkan inspeksi diff PR cepat hingga audit keamanan & integritas arsitektur tingkat Principal.
 * **`refactor-code`**: Refaktorisasi aman berpandu tes tanpa mengubah perilaku eksternal.
 * **`testing-validation`**: Penulisan dan eksekusi test suite komprehensif (Unit, Integration, E2E).
 * **`project-audit`**: Audit arsitektur, dependensi, dan utang teknis repositori tanpa mengubah kode aplikasi.
