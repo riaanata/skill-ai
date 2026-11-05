@@ -52,3 +52,31 @@ Never use shortcuts or rationalizations to bypass quality gates:
 - Reject: "Tests and error handling can be added later." -> Counter: Tests and defensive error handling must ship with the implementation.
 - Reject: "It works in theory, no need to run in terminal." -> Counter: Must execute and prove with command output.
 - Reject: "Assuming user intent on ambiguous requirements." -> Counter: Ask targeted clarifying questions before writing code (interview-me pattern).
+
+## Fast Skill Shorthand Mapping (Skill 1 - 24)
+When the user refers to "skill N", "skil N", or "#N", immediately map to and execute that specific skill:
+- **Skil 01:** `editonny` (Studio video percakapan lokal: potong jeda hening, audio -14 LUFS, 145 motion scene)
+- **Skil 02:** `humanizer` (Menghapus bau robot AI, memoles artikel mengalir alami, bebas klise & lolos detector)
+- **Skil 03:** `auto-subtitle-generator` (Transkripsi Whisper AI & pembuatan subtitel animasi gaya TikTok karaoke .ass)
+- **Skil 04:** `thumbnail-designer` (Desain cover YouTube 1280x720 & TikTok 1080x1920 berdaya klik tinggi High CTR)
+- **Skil 05:** `ffmpeg-media-pipeline` (Potong video instan -c copy, ubah rasio 9:16 vertikal, ekstrak audio 16kHz)
+- **Skil 06:** `viral-script-writer` (Penulisan naskah video pendek 30-60s berdaya tonton tinggi Hook 3s & visual cues)
+- **Skil 07:** `social-media-publisher` (Otomasi jadwal & upload video ke TikTok, Instagram Reels, dan YouTube Shorts)
+- **Skil 08:** `implement-feature` (SOP pembuatan fitur baru end-to-end: spesifikasi, kode minimal & unit test)
+- **Skil 09:** `advanced-debugging` (Investigasi akar masalah root cause, hotfix bedah & regression test otomatis)
+- **Skil 10:** `code-review` (Tinjauan kode lengkap: cek diff PR cepat hingga audit keamanan OWASP Principal)
+- **Skil 11:** `refactor-code` (Merapikan struktur kode & membuang duplikasi tanpa mengubah perilaku sistem)
+- **Skil 12:** `testing-validation` (Merancang & menjalankan test suite nyata Unit, Integration, E2E berbasis terminal)
+- **Skil 13:** `project-audit` (Audit kesehatan repositori: arsitektur, dependensi, security & technical debt)
+- **Skil 14:** `release-check` (Checklist kesiapan produksi: build, migrasi skema env, dan rencana rollback)
+- **Skil 15:** `diagram-design` (Diagram arsitektur editorial vektor SVG & HTML interaktif Anti-Mermaid slop)
+- **Skil 16:** `bedah-desain-video` (Rekayasa balik video/reels UI/UX menjadi sistem desain & blueprint kode 13-tahap)
+- **Skil 17:** `web-scraper-advanced` (Scraping tangguh anti-blokir Cloudflare, rotasi header browser & ekstraksi payload)
+- **Skil 18:** `browser-automation` (Otomasi browser siluman Playwright untuk isi form, klik tombol & aksi manusia)
+- **Skil 19:** `api-reverse-engineering` (Bedah request internal dari DevTools/cURL menjadi SDK client type-safe rapi)
+- **Skil 20:** `git-github-workflow` (Otomasi commit semantik, shield pra-push anti-bocor kredensial & rilis GitHub)
+- **Skil 21:** `database-migration` (SOP migrasi skema database aman zero-downtime expand-migrate-contract)
+- **Skil 22:** `sqlite-wal-optimization` (Tuning SQLite lokal ke mode WAL agar anti-error database locked pada bot)
+- **Skil 23:** `secret-leak-scanner` (Audit source code & git diff mencegah bocornya API key dan file rahasia .env)
+- **Skil 24:** `financial-data-pipeline` (Olah candle OHLCV saham/kripto & kalkulasi indikator teknikal RSI, MACD, MA)
+

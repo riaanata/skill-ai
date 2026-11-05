@@ -22,6 +22,40 @@ Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menj
 * ✅ **Conversational Video Studio (`editonny`):** Edit video lokal 100% offline via prompt (potong jeda hening, audio mastering -14 LUFS, karaoke captions terverifikasi OCR, dan 145 motion scene).
 * ✅ **Automated Git & DevOps Flow (`git-github-workflow`):** SOP otomatisasi commit semantik, verifikasi pra-push anti-bocor kredensial, dan rilis GitHub.
 * ✅ **Content Creator Pipeline:** Dari penulisan naskah viral, potong video FFmpeg, subtitel karaoke otomatis, pembuatan thumbnail, hingga upload otomatis ke media sosial.
+* ✅ **Fast Skill Shorthand (Skill 01 - 24):** Cukup panggil dengan mengetik nomornya langsung di chat (misal: `"skil 1"`, `"skil 9"`, `"skil 16"`, `"skil 20"`).
+
+---
+
+## ⚡ Fast Shorthand: Panggil Langsung Pakai Nomor (Skil 1 - 24)
+
+Anda tidak perlu mengetik nama skill yang panjang. Cukup sebut nomornya di prompt Antigravity:
+
+| Nomor | Skill | Fokus Utama |
+| :---: | :--- | :--- |
+| **01** | `editonny` | Studio video offline: potong jeda hening, audio -14 LUFS, OCR karaoke & 145 motion scene |
+| **02** | `humanizer` | Hapus bau robot AI, poles artikel mengalir alami bebas kata klise |
+| **03** | `auto-subtitle-generator` | Transkripsi Whisper AI & subtitel animasi karaoke TikTok (.ass) |
+| **04** | `thumbnail-designer` | Desain thumbnail YouTube 1280x720 & TikTok 1080x1920 High CTR |
+| **05** | `ffmpeg-media-pipeline` | Potong video instan (-c copy), ubah vertikal 9:16 & ekstrak audio 16kHz |
+| **06** | `viral-script-writer` | Naskah video pendek viral 30-60s dengan formula Hook 3 detik |
+| **07** | `social-media-publisher` | Otomasi jadwal & upload video ke TikTok, IG Reels, dan YouTube Shorts |
+| **08** | `implement-feature` | SOP pembuatan fitur baru end-to-end (spesifikasi, kode minimal & unit test) |
+| **09** | `advanced-debugging` | Investigasi akar masalah (root cause), hotfix bedah & regression test |
+| **10** | `code-review` | Tinjauan diff PR cepat hingga audit keamanan & integritas arsitektur |
+| **11** | `refactor-code` | Bersihkan duplikasi & rapikan struktur tanpa mengubah perilaku sistem |
+| **12** | `testing-validation` | Rancang & jalankan test suite nyata (Unit, Integration, E2E) di terminal |
+| **13** | `project-audit` | Audit kesehatan menyeluruh: arsitektur, dependensi & utang teknis |
+| **14** | `release-check` | Checklist pra-rilis produksi: build, migrasi skema env & rencana rollback |
+| **15** | `diagram-design` | Diagram arsitektur editorial vektor SVG tajam & HTML interaktif (Anti-Mermaid slop) |
+| **16** | `bedah-desain-video` | Reverse engineering video/reels UI/UX jadi sistem desain & blueprint kode 13-tahap |
+| **17** | `web-scraper-advanced` | Scraping web anti-blokir Cloudflare, rotasi header & ekstraksi JSON |
+| **18** | `browser-automation` | Otomasi browser siluman Playwright (bypass login, form & aksi manusia) |
+| **19** | `api-reverse-engineering` | Rekayasa balik request DevTools/cURL jadi SDK client type-safe |
+| **20** | `git-github-workflow` | Otomasi commit semantik, shield pra-push anti-bocor kredensial & rilis Git |
+| **21** | `database-migration` | SOP migrasi skema database aman zero-downtime expand-migrate-contract |
+| **22** | `sqlite-wal-optimization` | Tuning SQLite lokal mode WAL agar anti-error database locked |
+| **23** | `secret-leak-scanner` | Audit source code & git diff mencegah bocornya API key dan file .env |
+| **24** | `financial-data-pipeline` | Olah candle OHLCV saham/kripto & kalkulasi indikator teknikal RSI, MACD, MA |
 
 ---
 
