@@ -4,6 +4,12 @@
 
 ---
 
+<p align="center">
+  <img src="docs/Peta_24_Skill_AI.png" alt="Peta Arsitektur 24 Master Skill AI" width="100%" />
+</p>
+
+---
+
 ## 🌟 Ikhtisar (Overview)
 
 Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menjadi **Principal Software Engineer & Full-Stack Content Creator**:
