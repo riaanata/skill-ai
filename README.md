@@ -1,6 +1,6 @@
 # 🧠 Skill AI — Master Agent Skills, Rules & Creator Workflows
 
-> Koleksi lengkap 23 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
+> Koleksi lengkap 24 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
 
 ---
 
@@ -12,11 +12,12 @@ Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menj
 * ✅ **Minimal & Safe (Ponytail Philosophy):** Mencegah over-engineering, menolak dependensi berlebih, dan mengutamakan perubahan terkecil yang aman.
 * ✅ **Master Design System (`DESIGN.md`):** Mencegah *AI Slop Design* dengan standar visual 9 dimensi yang konsisten dan elegan.
 * ✅ **Editorial Diagram Standard (`diagram-design`):** Menyingkirkan *Mermaid slop* dengan SVG vektor tajam, skema arsitektur profesional, dan viewer HTML interaktif.
+* ✅ **Automated Git & DevOps Flow (`git-github-workflow`):** SOP otomatisasi commit semantik, verifikasi pra-push anti-bocor kredensial, dan rilis GitHub.
 * ✅ **Content Creator Pipeline:** Dari penulisan naskah viral, potong video FFmpeg, subtitel karaoke otomatis, pembuatan thumbnail, hingga upload otomatis ke media sosial.
 
 ---
 
-## 📦 Katalog 23 Modular Agent Skills (`.agent/skills/`)
+## 📦 Katalog 24 Modular Agent Skills (`.agent/skills/`)
 
 Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja menggunakan mekanisme **Progressive Disclosure** (hanya dimuat ke konteks AI saat dibutuhkan):
 
@@ -48,7 +49,8 @@ Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja 
 * **`viral-script-writer`**: Penulisan naskah video pendek berdaya tonton tinggi (*High Retention*) dengan formula Hook 3 detik pertama dan visual cues.
 * **`social-media-publisher`**: Otomasi publikasi video ke TikTok, Instagram Reels, dan YouTube Shorts via Playwright dan YouTube Data API v3 resmi.
 
-### 5. 🗄️ Database, Infrastruktur & Keamanan
+### 5. 🗄️ Database, Infrastruktur, DevOps & Keamanan
+* **`git-github-workflow`**: Otomasi Git dan GitHub lengkap — semantic conventional commits, branching flow, auto sync push aman, penanganan merge conflict, dan rilis GitHub.
 * **`database-migration`**: Prosedur migrasi skema database aman zero-downtime (*expand-migrate-contract*) dengan jaminan backup.
 * **`sqlite-wal-optimization`**: Tuning performa database SQLite lokal (mode WAL) agar anti-error "database locked" pada bot dan scraper.
 * **`secret-leak-scanner`**: Audit otomatis pencegah kebocoran API key, password database, dan private key sebelum commit ke Git.
