@@ -1,6 +1,6 @@
 # 🧠 Skill AI — Master Agent Skills, Rules & Creator Workflows
 
-> Koleksi lengkap 25 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`) dengan 8 Modern UI Presets, Bank Inspirasi (`docs/UI_REFERENCE_VAULT.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
+> Koleksi lengkap 26 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`) dengan 8 Modern UI Presets, Bank Inspirasi (`docs/UI_REFERENCE_VAULT.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
 
 ---
 
@@ -13,12 +13,13 @@ Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menj
 * ✅ **Master Design System (`DESIGN.md`):** Mencegah *AI Slop Design* dengan standar visual 9 dimensi dan 8 Modern UI Presets (Volt Lime, Cobalt Admin, Glassmorphism, 3D Clay, Dark AI).
 * ✅ **Editorial Diagram Standard (`diagram-design`):** Menyingkirkan *Mermaid slop* dengan SVG vektor tajam, skema arsitektur profesional, dan viewer HTML interaktif.
 * ✅ **Bedah Desain Video (`bedah-desain-video`):** Reverse engineering video UI/UX sosmed menjadi blueprint arsitektur 13-tahap dan prompt coding siap pakai didukung [UI Reference Vault](docs/UI_REFERENCE_VAULT.md).
+* ✅ **Conversational Video Studio (`editonny`):** Edit video lokal 100% offline via prompt (potong jeda hening, audio mastering -14 LUFS, karaoke captions terverifikasi OCR, dan 145 motion scene).
 * ✅ **Automated Git & DevOps Flow (`git-github-workflow`):** SOP otomatisasi commit semantik, verifikasi pra-push anti-bocor kredensial, dan rilis GitHub.
 * ✅ **Content Creator Pipeline:** Dari penulisan naskah viral, potong video FFmpeg, subtitel karaoke otomatis, pembuatan thumbnail, hingga upload otomatis ke media sosial.
 
 ---
 
-## 📦 Katalog 25 Modular Agent Skills (`.agent/skills/`)
+## 📦 Katalog 26 Modular Agent Skills (`.agent/skills/`)
 
 Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja menggunakan mekanisme **Progressive Disclosure** (hanya dimuat ke konteks AI saat dibutuhkan):
 
@@ -44,6 +45,7 @@ Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja 
 * **`financial-data-pipeline`**: Pengolahan data time-series OHLCV, agregasi multi-timeframe, dan perhitungan indikator teknikal (RSI, MACD, Moving Average, Bollinger Bands) untuk charting.
 
 ### 4. 🎬 Video, Audio, Penulisan Artikel & Desain Kreator
+* **`editonny`**: Studio editing video lokal berbasis percakapan — potong jeda otomatis, normalisasi audio -14 LUFS, subtitel kinetik terverifikasi OCR, reframing 9:16, dan 145 motion scene library.
 * **`humanizer`**: Menghapus bau robot (*AI tells*), jargon klise, dan menghasilkan artikel yang mengalir alami, lolos AI detector, serta ramah SEO Google (berbasis Wikipedia AI Cleanup).
 * **`ffmpeg-media-pipeline`**: Otomasi potong video instan tanpa re-encode, konversi rasio 16:9 ke 9:16 vertikal (TikTok/Reels), dan ekstraksi audio 16kHz Whisper.
 * **`auto-subtitle-generator`**: Transkripsi audio lokal otomatis via **Whisper AI** dan pembakaran teks (*burn-in*) subtitel animasi bergaya karaoke.
