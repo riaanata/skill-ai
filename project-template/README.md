@@ -1,6 +1,6 @@
 # 🧠 Skill AI — Master Agent Skills, Rules & Creator Workflows
 
-> Koleksi lengkap 24 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
+> Koleksi lengkap 25 Production-Grade Agent Skills, 9 Domain Rules, Master Design System (`DESIGN.md`) dengan 8 Modern UI Presets, Bank Inspirasi (`docs/UI_REFERENCE_VAULT.md`), dan Protocol Tata Kelola AI (`AGENTS.md`) untuk **Google Antigravity, Claude Code, Cursor, Codex, dan Gemini CLI**.
 
 ---
 
@@ -10,18 +10,20 @@ Repositori ini mengubah AI coding agent dari sekadar *generator kode biasa* menj
 * ✅ **Evidence-Based:** Dilarang mengklaim hasil tes sebelum benar-benar dijalankan di terminal.
 * ✅ **Anti-Rationalization (Addy Osmani Protocol):** Menolak segala bentuk jalan pintas AI yang menunda testing, dokumentasi, atau penanganan error.
 * ✅ **Minimal & Safe (Ponytail Philosophy):** Mencegah over-engineering, menolak dependensi berlebih, dan mengutamakan perubahan terkecil yang aman.
-* ✅ **Master Design System (`DESIGN.md`):** Mencegah *AI Slop Design* dengan standar visual 9 dimensi yang konsisten dan elegan.
+* ✅ **Master Design System (`DESIGN.md`):** Mencegah *AI Slop Design* dengan standar visual 9 dimensi dan 8 Modern UI Presets (Volt Lime, Cobalt Admin, Glassmorphism, 3D Clay, Dark AI).
 * ✅ **Editorial Diagram Standard (`diagram-design`):** Menyingkirkan *Mermaid slop* dengan SVG vektor tajam, skema arsitektur profesional, dan viewer HTML interaktif.
+* ✅ **Video to UI Blueprint (`video-to-ui-blueprint`):** Reverse engineering video UI/UX sosmed menjadi blueprint arsitektur 13-tahap dan prompt coding siap pakai didukung [UI Reference Vault](docs/UI_REFERENCE_VAULT.md).
 * ✅ **Automated Git & DevOps Flow (`git-github-workflow`):** SOP otomatisasi commit semantik, verifikasi pra-push anti-bocor kredensial, dan rilis GitHub.
 * ✅ **Content Creator Pipeline:** Dari penulisan naskah viral, potong video FFmpeg, subtitel karaoke otomatis, pembuatan thumbnail, hingga upload otomatis ke media sosial.
 
 ---
 
-## 📦 Katalog 24 Modular Agent Skills (`.agent/skills/`)
+## 📦 Katalog 25 Modular Agent Skills (`.agent/skills/`)
 
 Setiap skill berformat standar `SKILL.md` dengan *YAML frontmatter* dan bekerja menggunakan mekanisme **Progressive Disclosure** (hanya dimuat ke konteks AI saat dibutuhkan):
 
 ### 1. 🛠️ Software Engineering, Arsitektur & Desain Sistem
+* **`video-to-ui-blueprint`**: Dekomposisi video walkthrough / reels UI/UX menjadi sistem desain, arsitektur halaman, hierarki komponen, dan blueprint kode AI 13-tahap (A–M).
 * **`diagram-design`**: Standar diagram arsitektur editorial publikasi (45 tipe diagram) dalam format vector SVG murni dan preview HTML interaktif pan/zoom — menyingkirkan *Mermaid slop*.
 * **`implement-feature`**: SOP pembuatan fitur end-to-end (spesifikasi, implementasi minimal, unit test).
 * **`advanced-debugging`**: Investigasi akar masalah (*root cause*), reproduksi bug, dan penambahan uji regresi.

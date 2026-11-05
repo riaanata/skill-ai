@@ -118,3 +118,49 @@ Use semantic color tokens (compatible with Tailwind CSS / CSS Variables). Avoid 
 - **Minimum Touch Target:** Buttons and links on mobile must be at least `44px x 44px`.
 - **Keyboard Navigation:** All interactive elements must be focusable via `Tab` with visible focus rings.
 - **Semantic HTML:** Use `<button>`, `<nav>`, `<main>`, `<header>`, `<article>`, `<dialog>` rather than nested `<div>`s with click handlers.
+
+---
+
+## 10. The 8 Modern UI Presets (Code XR & Neo-FinTech Suite)
+
+When building new apps or dashboards, you can activate any of these 8 pre-calibrated modern aesthetic archetypes:
+
+### 1. Electric Cobalt Clean Admin
+- **Best For:** Enterprise dashboards, analytics suites, SaaS control panels.
+- **Tokens:** Canvas `#F8FAFC` | Card `#FFFFFF` | Brand Primary `#2563EB` | Active Pill `linear-gradient(135deg, #1D4ED8, #3B82F6)` | Shadow `0 16px 32px -12px rgba(37,99,235, 0.08)` | Radius `20px`.
+- **Chart Style:** Smooth spline area chart with cobalt line and fading vertical gradient fill.
+
+### 2. Volt Lime Neo-FinTech Bento
+- **Best For:** Modern CRM, FinTech apps, high-conversion growth dashboards.
+- **Tokens:** Canvas `#FAFAFA` | Card `#FFFFFF` | Hero Accent `#B7F538` (Electric Lime) | Accent Text `#0F172A` (Bold Charcoal) | Shadow `0 20px 40px -15px rgba(0,0,0,0.06)` | Radius `20px`.
+- **Key Element:** High-contrast lime badge pills (`v2`, `Source Code Included`) and doodle scribble vectors.
+
+### 3. Translucent Glassmorphism (Purple & Cyan)
+- **Best For:** Checkout flows, payment gateways, premium consumer apps.
+- **Tokens:** Canvas `#F1F5F9` (Light) / `#0B0F19` (Dark) | Glass Card `rgba(255, 255, 255, 0.7)` with `backdrop-filter: blur(16px)` | Border `1px solid rgba(255, 255, 255, 0.3)` | Shadow `0 20px 30px rgba(0,0,0,0.05)`.
+- **Accent:** Royal Purple `#7C3AED` to Indigo `#6366F1`.
+
+### 4. 3D Claymorphism & Soft Neumorphism
+- **Best For:** Creative dashboards, Web3 apps, playful interactive tools.
+- **Tokens:** Canvas `#EEF2F6` | Card `#FFFFFF` | Dual Shadow `8px 8px 20px rgba(166, 180, 200, 0.4), -8px -8px 20px rgba(255, 255, 255, 0.8)` | Radius `24px` | Accent Sky Blue `#38BDF8`.
+
+### 5. Futuristic Dark Cyber-AI
+- **Best For:** AI models, bot orchestrators, developer telemetry, dark mode enthusiasts.
+- **Tokens:** Canvas `#09090B` | Card `#18181B` | Border `#27272A` | Glowing Accents: Cyan `#06B6D4`, Emerald `#10B981`, Violet `#8B5CF6` | Text `#F8FAFC`.
+- **Chart Style:** High-glow neon path lines with dark grid background dots.
+
+### 6. Warm Coral & Sunset Orange
+- **Best For:** Marketing analytics, HR platforms, community dashboards.
+- **Tokens:** Canvas `#FFFDFB` | Card `#FFFFFF` | Brand Coral `#FB7185` | Primary Orange `#EA580C` | Border `#F3E8E2` | Radius `18px`.
+
+### 7. Clean Minimalist Developer Portfolio & E-Commerce
+- **Best For:** Portfolios, clothing closet, luxury catalogs.
+- **Tokens:** Canvas `#FFFFFF` | Typography Pure Black `#09090B` (High Contrast) | Monospace Subheaders | 1px Slate Dividers `#E2E8F0` | Uncluttered generous whitespace.
+
+### 8. Kinetic Micro-Interaction Suite
+- **Animation Tokens:**
+  - Card Entrance: `staggerChildren: 0.08`, `y: [16, 0]`, `opacity: [0, 1]` (duration `250ms`).
+  - Chart Reveal: SVG path `strokeDasharray` and `strokeDashoffset` transition from `1000` to `0` (duration `800ms ease-out`).
+  - Button Active: `scale(0.97)` on tap, `scale(1.02)` on hover.
+  - OTP Input Jump: Focus state border glow with automatic auto-focus next cell on character entry.
+
